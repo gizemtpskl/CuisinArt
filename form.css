@@ -1,0 +1,92 @@
+
+body {
+  margin: 0;
+  height: 20px
+}
+.whole-form{
+    margin: auto;
+    margin-top: 5%;
+    padding: 5%;
+    width: 80%;
+    background-color: #ded0ff;
+    border-radius: 5px;
+    box-sizing: border-box;
+    border: 2px solid rgba(0, 0, 0, 0.183);
+}
+
+.input-label{
+    margin-left: 10%;
+    font-weight: bold;
+}
+
+.inpt{
+  width: 80%;
+  padding: 12px 20px;
+  margin: 8px auto 30px;
+  margin-left: 10%;
+  display: inline-block;
+  border: 1px solid rgb(172, 172, 172);
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.submit{
+  font-weight: bolder;
+  font-size: large;
+  width: 30%;
+  background-color: #9919d0;
+  color: white;
+  padding: 14px 20px;
+  margin: 3% 35% 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.submit:hover{
+  background-color: #b73fea;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+}
+
+a{
+  color: azure;
+}
+
+.select-button{
+  margin: 2%;
+  margin-top: 30px;
+}
+
+.select-menu{
+  margin-top: 70px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.body-bg{
+  margin: 0;
+  position: fixed; 
+  top: 0; 
+  left: 0; 
+  
+  min-width: 100%;
+  min-height: 100%;
+
+  background: url("resources/cute-abstract-modern-background-free-vector.webp");
+}

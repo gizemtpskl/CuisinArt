@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../form.css" />
+  </head>
+  <body>
+    <h2 class="input-label">Insert Video</h1>
+    <div class="whole-form">
+      <form action="phpFiles/insertVideo.php" method="POST">
+        <div class="input-label">Video Name:</div>
+        <div>
+          <input class="inpt" type="text" id="name" name="name" />
+        </div>
+        <div class="input-label">Video Link:</div>
+        <div>
+          <input class="inpt" type="text" id="link" name="link" />
+        </div>
+        <div class="input-label">Description:</div>
+        <div>
+          <input class="inpt" type="text" id="description" name="description" />
+        </div>
+        <input class="submit" type="submit" value="Submit" />
+      </form>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../form.css" />
+  </head>
+  <body>
+    <h2 class="input-label">Insert Food Type-Event Relation </h1>
+    <div class="whole-form">
+      <form action="phpFiles/insertHas.php" method="POST">
+        <div class="input-label">Event ID:</div>
+        <div>
+          <input class="inpt" type="text" id="eid" name="eid" />
+        </div>
+        <div class="input-label">Food Type ID:</div>
+        <div>
+          <input class="inpt" type="text" id="fid" name="fid" />
+        </div>
+        <input class="submit" type="submit" value="Submit" />
+      </form>
+    </div>
+  </body>
+</html>
